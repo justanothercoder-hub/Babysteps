@@ -75,9 +75,9 @@ public class LinkedList {
     // 5. Display the Linked List
     public void printList() {
         Node current = head;
-        System.out.print("LinkedList: ");
+        System.out.print("Linkedist: ");
         while (current != null) {
-            System.out.print(current.data + " --> ");
+            System.out.print(current.data + " ------> ");
             current = current.next;
         }
         System.out.println("Null");
