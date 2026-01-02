@@ -81,6 +81,7 @@ public class LinkedList {
             current = current.next;
         }
         System.out.println("Null");
+        System.out.println("extra line");
     }
 
     // Driver Code
